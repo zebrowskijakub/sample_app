@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
+gem 'bcrypt', '3.1.11'
 gem 'puma',  '3.9.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -46,7 +47,7 @@ end
 group :test do
   gem 'rails-controller-testing'
   gem 'minitest-reporters',       '1.1.14'
-  gem 'guard'                   
+  gem 'guard'
   gem 'guard-minitest',           '2.4.4'
 end
 
