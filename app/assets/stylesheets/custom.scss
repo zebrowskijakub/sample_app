@@ -5,15 +5,12 @@
 
 $gray-medium-light: #eaeaea;
 
-<<<<<<< HEAD
-=======
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
 }
 
->>>>>>> sign-up
 //Universal
 body {
   padding-top: 60px;
@@ -78,8 +75,7 @@ p {
   }
 }
 
-<<<<<<< HEAD
-=======
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -144,7 +140,7 @@ aside {
   margin-top: 15px;
 }
 
->>>>>>> sign-up
+
 /* footer */
 
 footer {
@@ -170,8 +166,7 @@ footer {
     }
   }
 }
-<<<<<<< HEAD
-=======
+
 
 /* miscellaneous */
 
@@ -182,4 +177,3 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
->>>>>>> sign-up
